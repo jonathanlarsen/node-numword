@@ -12,7 +12,7 @@ module.exports = function toWords(number) {
         console.error(msg);
         return msg;
     }
-    if (stringNumber === '0') return 'zero';
+    if (stringNumber === '0' || stringNumber === '-0') return 'zero';
 
     str = '';
     if (stringNumber.indexOf('-') === 0) {

@@ -8,9 +8,24 @@ describe('numword', function() {
             assert.equal(numword(0), 'zero');
         });
 
+        it('should still return zero', function() {
+            assert.equal(numword('-0'), 'zero');
+            assert.equal(numword(-0), 'zero');
+        });
+
         it('should return one', function() {
             assert.equal(numword('1'), 'one');
             assert.equal(numword(1), 'one');
+        });
+
+        it('should return negative one', function() {
+            assert.equal(numword('-1'), 'negative one');
+            assert.equal(numword(-1), 'negative one');
+        });
+
+        it('should return one point one two', function() {
+            assert.equal(numword('1.12'), 'one point one two');
+            assert.equal(numword(1.12), 'one point one two');
         });
 
         it('should return two', function() {
