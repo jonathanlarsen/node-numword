@@ -51,5 +51,3 @@ module.exports = function toWords(number) {
     }
     return str.replace(/\s+/g, ' ').replace(/\s+$/, '');
 };
-
-console.log(module.exports('123456789012345678901234567890'));
