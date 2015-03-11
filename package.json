@@ -1,7 +1,7 @@
 {
   "name": "numword",
   "version": "1.0.1",
-  "description": "Converts string representation of Numbers to words",
+  "description": "Converts numbers to words",
   "main": "index.js",
   "directories": {
     "test": "test"
