@@ -1,6 +1,6 @@
 {
   "name": "numword",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Converts numbers to words",
   "main": "index.js",
   "directories": {
